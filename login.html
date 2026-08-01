@@ -1,0 +1,43 @@
+<!-- 
+
+mdp pour lilo  -> bon anniv
+mdp pour invité -> bravo vs connaissez lilo
+mdp pour parents -> version secrets safe
+
+-->
+
+<!doctype html>
+<html>
+
+<head>
+    <title>for lilo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-title">
+            Entrez votre code
+        </div>
+        <input type="text" class="login-input" id="code" required minlength="1" maxlength="5" size="10" />
+        <button class="login-btn" onclick="Login()">
+        Se connecter
+    </button>
+        <button class="login-btn" onclick="Login()">
+        Je n'ai pas de code
+    </button>
+    </div>
+
+    <div class="paillettes">
+        <img src="./etoiles.gif" alt="paillettes">
+    </div>
+
+</body>
+
+<script>
+    sessionStorage.removeItem("quizContext");
+</script>
+<script src="script.js" type="text/javascript"></script>
+
+</html>

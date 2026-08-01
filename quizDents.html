@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>for lilo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="login-title">
+        Quiz
+    </div>
+
+    <div class="question-container">
+
+        <div class="question">
+            Combien de brossage de dents par jour ?
+        </div>
+
+        <div class="correction-container" id="correction" style="display: none;">
+            <div class="correction">
+                <div class="true" id="true" style="display: none;"></div>
+                <div class="false" id="false" style="display: none;"></div>
+                0 (Zero) <br> Funfact: lilochou possède une gencive de 50 ans, mots du dentiste
+            </div>
+            <div class="etoiles">
+                <img src="./etoiles.gif" alt="etoiles">
+            </div>
+        </div>
+
+        <input class="reponse" type="number" id="answer" min="0" max="5" />
+        <button class="next-btn" id="valider" type="button" onclick="showCorrection('0')">Valider</button>
+
+        <button class="next-btn" id="next" style="display: none;" type="button" onclick="nextPage()">
+            Suivant
+        </button>
+
+
+    </div>
+
+
+</body>
+
+<script src="script.js" type="text/javascript">
+    let quizContext = JSON.parse(sessionStorage.getItem("quizContext"));
+</script>
+
+</html>

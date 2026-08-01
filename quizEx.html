@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>for lilo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="login-title">
+        Quiz
+    </div>
+
+    <div class="question-container">
+
+        <div class="question">
+            Ou a-t-elle rencontré sa première copine ?
+        </div>
+
+        <div class="correction-container" id="correction" style="display: none;">
+            <div class="correction">
+                <div class="true" id="true" style="display: none;"></div>
+                <div class="false" id="false" style="display: none;"></div>
+                Sur Valorant <br> Comme toute folle qui se respecte
+            </div>
+            <div class="etoiles">
+                <img src="./etoiles.gif" alt="etoiles">
+            </div>
+        </div>
+
+        <input class="reponse" type="text" id="answer" />
+        <button class="next-btn" id="valider" type="button" onclick="showCorrectionList(['Valorant', 'valorant', 'valo', 'Valo'])">Valider</button>
+
+        <button class="next-btn" id="next" style="display: none;" type="button" onclick="nextPage()">
+            Suivant
+        </button>
+
+
+    </div>
+
+
+</body>
+
+<script src="script.js" type="text/javascript">
+    let quizContext = JSON.parse(sessionStorage.getItem("quizContext"));
+</script>
+
+</html>
