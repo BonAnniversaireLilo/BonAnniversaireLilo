@@ -98,7 +98,7 @@ function showCorrection(answer) {
     } else {
         var c_state = document.getElementById("false");
         c_state.textContent = "u suck"
-        c_state.textContent = "t'es nul"
+        c_state.textContent = "t'es nul·le"
     }
     c_state.style.display = "block";
     c.style.display = "block";
