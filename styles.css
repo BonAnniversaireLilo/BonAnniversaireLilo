@@ -14,7 +14,7 @@ h1 {
     background: -webkit-linear-gradient(purple, pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "comicms", cursive, sans-serif;
 }
 
 .image-container {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .image-container button {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "comicms", cursive, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,7 +78,7 @@ h1 {
     background: -webkit-linear-gradient(purple, pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "comicms", cursive, sans-serif;
 }
 
 .login-btn {
@@ -343,7 +343,7 @@ h1 {
     background: -webkit-linear-gradient(purple, pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "comicms", cursive, sans-serif;
 }
 
 .score-com {
@@ -359,7 +359,7 @@ h1 {
     background: -webkit-linear-gradient(purple, pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "comicms", cursive, sans-serif;
     text-shadow: 2px 2px 6px rgba(147, 51, 234, 0.2);
 }
 
@@ -373,7 +373,6 @@ h1 {
     .welcome-title,
     .login-title {
         font-size: 2rem; 
-        font-family: "myfont", cursive, sans-serif;
     }
 
     .subtitle {
@@ -469,8 +468,8 @@ h1 {
     }
 
     @font-face {
-    font-family: "myfont";
-    src: url("myfont.ttf") format("truetype");
+    font-family: "comicms";
+    src: url("comicms.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
