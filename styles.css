@@ -362,3 +362,108 @@ h1 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-shadow: 2px 2px 6px rgba(147, 51, 234, 0.2);
 }
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .welcome-title,
+    .login-title {
+        font-size: 2rem; 
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .subsubtitle {
+        font-size: 1rem;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 90%;
+        max-width: 350px;
+        margin-left: 0;
+    }
+
+    .image-container button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .login-container {
+        width: 90%;
+        max-width: 320px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .login-input {
+        width: 90%;
+    }
+
+    .question-container {
+        width: 95%;
+        padding: 20px 15px;
+        margin: 20px auto;
+    }
+
+    .question {
+        font-size: 1.3rem;
+        margin: 10px;
+    }
+
+    .reponse {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .correction-container {
+        width: 95%;
+        min-height: 120px;
+    }
+
+    .correction {
+        font-size: 15px;
+    }
+
+    .next-btn,
+    .login-btn,
+    .QCM-btn,
+    .QCM-btn-selected {
+        width: 100%;
+        max-width: 280px;
+        font-size: 1rem;
+    }
+
+    .QCM-container {
+        width: 100%;
+        max-width: 320px;
+        grid-template-columns: 1fr;
+    }
+
+    .score-container {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .score-title {
+        font-size: 1.8rem;
+    }
+
+    #score {
+        font-size: 2.5rem;
+    }
+
+    .paillettes,
+    .etoiles img {
+        object-fit: cover;
+    }
+}
