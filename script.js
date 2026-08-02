@@ -219,14 +219,15 @@ function nextPage() {
 
 function displayScore() {
     var score_area = document.getElementById("score");
+    var len = quizContext.pages.length - 2;
     var score_com = document.getElementById("score-com");
-    var ratio = quizContext.pages.length / 1.5;
-    var ratio_bis = quizContext.pages.length / 2.2;
+    var ratio = len / 1.5;
+    var ratio_bis = len / 2.2;
     score_area.textContent += quizContext.score;
     score_area.textContent += "/";
-    score_area.textContent += quizContext.pages.length;
-    if (quizContext.score == quizContext.pages.lengths ||
-        quizContext.score == (quizContext.pages.length - 1)
+    score_area.textContent += len;
+    if (quizContext.score == len ||
+        quizContext.score == (len - 1)
     ) {
         score_com.textContent = "omg es-tu lilo"
     } else if (quizContext.score > ratio) {
