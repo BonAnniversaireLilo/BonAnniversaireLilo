@@ -176,7 +176,7 @@ function answerQCM(answerList) {
     } else {
         var c_state = document.getElementById("false");
         c_state.textContent = "u suck"
-        c_state.textContent = "t'es nul"
+        c_state.textContent = "t'es nul·le"
     }
     var c = document.getElementById("correction");
     c_state.style.display = "block";
