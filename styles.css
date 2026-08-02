@@ -373,6 +373,7 @@ h1 {
     .welcome-title,
     .login-title {
         font-size: 2rem; 
+        font-family: "myfont", cursive, sans-serif;
     }
 
     .subtitle {
@@ -466,4 +467,11 @@ h1 {
     .etoiles img {
         object-fit: cover;
     }
+
+    @font-face {
+    font-family: "myfont";
+    src: url("myfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 }
